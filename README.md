@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <title>Login</title>
+    
 </head>
 <body>
     <div class="main-login">
         <div class="left-login">
-            
+            <h1><br></h1>
             <img src="studying.svg" class="left-img" alt="animation">
         </div>
         <div class="right-login">
             <div class="card-login">
-                <h1>LOGIN</h1>
+                <h1></h1>
                 <div class="textfield">
                     <label for="user"></label>
                     <input type="text" name="user" placeholder="User">
