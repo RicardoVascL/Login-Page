@@ -11,21 +11,21 @@
 <body>
     <div class="main-login">
         <div class="left-login">
-            <h1>Realize seu login<br> e entre pro squad</h1>
+            
             <img src="studying.svg" class="left-img" alt="animation">
         </div>
         <div class="right-login">
             <div class="card-login">
                 <h1>LOGIN</h1>
                 <div class="textfield">
-                    <label for="user">User</label>
+                    <label for="user"></label>
                     <input type="text" name="user" placeholder="User">
                 </div>
                 <div class="textfield">
-                    <label for="password">Password</label>
+                    <label for="password"></label>
                     <input type="password" name="password" placeholder="Password">
                 </div>
-                <button class="btn-login">Login</button>
+                <button class="btn-login"></button>
             </div>
         </div>
     </div>
