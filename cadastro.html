@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/cadastro.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img/float.svg">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Register</h1>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="fistname">Fist Name</label>
+                        <input id="fistname" type="text" name="fistname" placeholder="your fist name" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Last Name</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="your surname" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="your email" required>
+                    </div>
+                    
+                    <div class="input-box">
+                        <label for="number">Telephone</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Password</label>
+                        <input id="password" type="password" name="password" placeholder="password" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Confirmpassword">Confirm Password</label>
+                        <input id="Confirmpassword" type="password" name="Confirmpassword" placeholder="confirm password" required>
+                    </div>
+                </div>
+
+                <div class="gender-input">
+                    <div class="gender-title">
+                        <h6>Genre</h6>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="female" name="gender">
+                            <label class="txtcolor" for="female">Female</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="male" name="gender">
+                            <label class="txtcolor" for="male">Male</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="others" name="gender">
+                            <label class="txtcolor" for="others">Others</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" id="none" name="gender">
+                            <label class="txtcolor" for="none">Prefer not to say</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-btn">
+                        <button class="register-bnt"><a href="index.html">Register 🚀</a></button>
+                        <span>or</span>
+                </div>
+            </form>
+            <button class="login-btn"><a href="index.html">Login</a></button>
+        </div>
+    </div>    
+</body>
+</html>
