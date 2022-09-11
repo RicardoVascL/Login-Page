@@ -187,7 +187,7 @@ body {
     }
 
     .title {
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
 }
 
@@ -195,6 +195,7 @@ body {
     .container {
         width: 80%;
         height: auto;
+
     }
 
     .input-group {
@@ -202,7 +203,11 @@ body {
         overflow-y: scroll;
         flex-wrap: nowrap;
         max-height: 10rem;
-        padding-right: 5rem;
+
+    }
+
+    .gender-title {
+        margin-bottom: -12px;
     }
 
     .gender-input {
@@ -211,6 +216,7 @@ body {
 
     .gender-group {
         flex-direction: column;
+        align-items: center;
     }
 
 
